@@ -9,4 +9,7 @@ public class IntegrateAngular2IntoSpringAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(IntegrateAngular2IntoSpringAppApplication.class, args);
 	}
+	
+	
+	
 }
