@@ -1,15 +1,29 @@
 <html>
 
 	<head>
-		<title>Angular 2</title>
+		<title>Angular 2</title>  
+		<meta charset="utf-8"></meta>
+		<base href="/"></base>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+		<link rel="icon" type="image/x-icon" href="favicon.ico"></link>
 	</head>
 
 <body>
 	
-	<h1>Angular 2</h1>
+	<h1>Angular 2</h1>	
 	
-	<p>
-	</p>
+	<div style="border: 1px solid black; padding: 10px;">
+  		<app-root>Loading...</app-root>
+  	
+	  	<script type="text/javascript" data-th-src="@{/js/angular2/inline.js}"></script>
+	  	<script type="text/javascript" data-th-src="@{/js/angular2/styles.bundle.js}"></script>
+	  	<script type="text/javascript" data-th-src="@{/js/angular2/main.bundle.js}"></script>
+  	</div>
+  	
+  	
+	<a data-th-href="@{/page1}">page 1</a>
+	<a data-th-href="@{/page2}">page 2</a>
 </body>
 
 </html>
