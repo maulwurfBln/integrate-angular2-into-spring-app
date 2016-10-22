@@ -19,7 +19,7 @@ public class PageController {
         return new ModelAndView("page2");
     }
 	
-	@RequestMapping(value={"/angular2/{param3}/main/**"})
+	@RequestMapping(value={"/angular2/param3-{param3}/main/**"})
     public ModelAndView getAngular2Page(@RequestParam(required=false) final String param1, 
     									@RequestParam(required=false) final String param2,
     									@PathVariable final String param3) {
